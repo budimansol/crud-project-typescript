@@ -21,17 +21,25 @@
 Modular Layered Architecture
 
 Controller
+
 ↓
+
 Service
+
 ↓
+
 Prisma
+
 ↓
+
 PostgreSQL
 
 ## Run Project
 
 npm install
+
 npx prisma migrate dev
+
 npm run start:dev
 
 ## Run Test
